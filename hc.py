@@ -1,6 +1,3 @@
-import os
-os.chdir("D:\\Informatique\\HashCode 2020")
-
 def linspace(a, b, pas):
     n = round((b-a)/pas)
     return [a + i*(b-a)/n for i in range(n)]
